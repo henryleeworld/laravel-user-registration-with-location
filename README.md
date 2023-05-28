@@ -1,4 +1,4 @@
-# Laravel 8 帶有地點註冊帳號
+# Laravel 10 帶有地點註冊帳號
 
 選擇地點時別忘了營業場所也要留意，除了租金地段外，還有土地使用分區與建物使用用途都要合格，以免日後受罰。
 
@@ -20,22 +20,23 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate --seed
 ```
-- 執行 __npm__ 指令的 __install__ 來執行安裝專案引用的依賴套件。
+- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
 ```sh
 $ npm install
 ```
-- 執行安裝 Laravel Mix 引用的依賴項目，並執行所有 Mix 任務。
+- 執行正式環境版本化資源管道並編譯。
 ```sh
-$ npm install && npm run dev
+$ npm run build
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/register` 來進行註冊。
+- 註冊後，可以經由 `/login` 來進行登入。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/Scri5gD.png)
+![](https://i.imgur.com/BCPatJa.png)
 > 公司法並未規定地點是否同時需為實際營業地址，但若另有其它營業地址存在，仍需依照營業稅法申請營業稅籍登記
 
-![](https://i.imgur.com/LCcdEWt.png)
+![](https://i.imgur.com/8hP1CNd.png)
 > 就公司法而言，同一地點是可以同時存在多家公司的，也可以登記兩家以上同業別的公司
