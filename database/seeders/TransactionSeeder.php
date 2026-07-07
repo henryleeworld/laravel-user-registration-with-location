@@ -8,12 +8,10 @@ use Illuminate\Database\Seeder;
 class TransactionSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
-     *
-     * @return void
+     * Run the database seeders.
      */
-    public function run()
+    public function run(): void
     {
-        Transaction::factory(50)->create();
+        Transaction::factory()->count(50)->create();
     }
 }

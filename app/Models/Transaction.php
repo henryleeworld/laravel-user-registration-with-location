@@ -7,7 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Transaction extends Model
 {
+    /** @use HasFactory<\Database\Factories\TransactionFactory> */
     use HasFactory;
 
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var list<string>
+     */
     protected $fillable = ['location_id', 'transaction_amount', 'description'];
 }

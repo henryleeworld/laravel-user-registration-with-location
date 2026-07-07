@@ -1,4 +1,4 @@
-# Laravel 10 帶有地點註冊帳號
+# Laravel 12 帶有地點註冊帳號
 
 選擇地點時別忘了營業場所也要留意，除了租金地段外，還有土地使用分區與建物使用用途都要合格，以免日後受罰。
 
@@ -35,8 +35,8 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/BCPatJa.png)
+![](https://i.imgur.com/TR55IYx.png)
 > 公司法並未規定地點是否同時需為實際營業地址，但若另有其它營業地址存在，仍需依照營業稅法申請營業稅籍登記
 
-![](https://i.imgur.com/8hP1CNd.png)
+![](https://i.imgur.com/z6LXQEz.png)
 > 就公司法而言，同一地點是可以同時存在多家公司的，也可以登記兩家以上同業別的公司

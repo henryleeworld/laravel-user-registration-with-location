@@ -8,12 +8,10 @@ use Illuminate\Database\Seeder;
 class LocationSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
-     *
-     * @return void
+     * Run the database seeders.
      */
-    public function run()
+    public function run(): void
     {
-        Location::factory(5)->create();
+        Location::factory()->count(5)->create();
     }
 }
